@@ -1,0 +1,35 @@
+/* Override the class to set the properties of the border */
+.border-light {
+  border: 5px solid maroon !important;
+}
+
+/* Override the class to set the properties of the border */
+
+.border-danger {
+  border: 5px solid #B20437 !important;
+}
+
+/* Override the class to set the properties of the border */
+
+.border-warning {
+  border-width: 5px !important;
+}
+
+/* Override the class to set the properties of the border */
+
+.border-dark {
+  border: 5px solid black !important;
+}
+
+/* Change the Description of Mohawk Desktop to Mohawk Mobile when screen size
+shrinks to 400px or less */
+
+@media (max-width: 400px) {
+  .navbar-brand span {
+    display: none;
+  }
+
+  .navbar-brand:after {
+    content: 'Mohawk Mobile';
+  }
+}
